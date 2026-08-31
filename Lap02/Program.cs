@@ -42,6 +42,7 @@ namespace Lap02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercentage = currentHp * 100 / maxHp;
             Console.WriteLine($"Hp Percentage: {hpPercentage}%");
+           
             //part B Lab 02
             string Name = "jin rang";
             string Class = "warrior";
@@ -73,6 +74,7 @@ namespace Lap02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercentage = currentHp * 100 / maxHp;
             Console.WriteLine($"Hp Percentage: {hpPercentage}%");
+           
             //
             string Name1 = "hopin";
             string Class1 = "mage";
@@ -104,6 +106,7 @@ namespace Lap02
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercentage = currentHp * 100 / maxHp;
             Console.WriteLine($"Hp Percentage: {hpPercentage}%");
+            
             //
             string dammeName = "tony";
             char dammeClass = 'A';
