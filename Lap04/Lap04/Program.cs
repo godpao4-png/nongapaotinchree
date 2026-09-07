@@ -15,7 +15,7 @@
             Console.Write("Starting luck (0.0-10.0): ");
             bool luckvalid = double.TryParse(Console.ReadLine(), out double luck);
             Console.WriteLine($"\n{charName} the Class-{classNum} adventurer enters the dungeon. Luck: {luck}");
-
+            
             
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|     ITEM SHOP                |");
