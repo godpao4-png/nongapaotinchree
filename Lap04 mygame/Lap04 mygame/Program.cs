@@ -16,21 +16,24 @@
             bool isPlayable = true;
 
             Console.WriteLine("<< \"=======================================================================\\n");
-            Console.WriteLine("<< \"  ____ ____ ___ ____  _____ ____    ____  ___   _   _   _   _ \\n");
-            Console.WriteLine("<< \" / ___|  _ \\_ _|  _ \\| ____|  _ \\\\  |  _ \\\\/ _ \\\\ | \\\\ | | / \\\\ | |\\");
-            Console.WriteLine("<< \" \\___ \\ |_) | || | | |  _| | |_) | | |_) | | | ||  \\\\| |/ _ \\\\| |\\n");
+            Console.WriteLine("<<  \"  ____ ____ ___ ____  _____ ____    ____  ___   _   _   _   _ \\n");
+            Console.WriteLine("<<  \" / ___|  _ \\_ _|  _ \\| ____|  _ \\\\  |  _ \\\\/ _ \\\\ | \\\\ | | / \\\\ | |\\");
+            Console.WriteLine("<<  \" \\___ \\ |_) | || | | |  _| | |_) | | |_) | | | ||  \\\\| |/ _ \\\\| |\\n");
             Console.WriteLine(" << \"  ___) |  __/| || |_| | |___|  _ <  |  __/| |_| || |\\\\  / ___ \\\\_|\\n\"");
             Console.WriteLine(" << \" |____/|_|  |___|____/|_____|_| \\_\\ |_|    \\\\___/ |_| \\\\_/_/   \\\\_|\\n");
             Console.WriteLine(" << \" [ FRIENDLY NEIGHBORHOOD SPIDER-MAN HUD - MILES MORALES SYSTEM ]\\n");
             Console.WriteLine("<< \"=======================================================================\\n\\n\\");
-            Console.WriteLine($">>Hero Name   : {heroName}");
-            Console.WriteLine($">>Level       : {heroLevel}");
-            Console.WriteLine($">>Hp: {currentHp} / {maxHp}");
-            Console.WriteLine($">>Max HP      : {maxHp}");
-            Console.WriteLine($">>Crit Chance : {critChance}");
-            Console.WriteLine($">>Attack Power: {attackPower}");
-            Console.WriteLine($">>Stamina     : {staminaElectric}");
-            Console.WriteLine($">>Playable    : {isPlayable}");
+           
+           Console.WriteLine(" << \" | SPIDER-SUIT PROFILE                                                 |\n");  
+            Console.WriteLine($" | >> HERO ALIAS  : Miles Morales (Spider-Man)                        \n");
+            Console.WriteLine($" | >>Level       : {heroLevel}                                        \n        ");
+            Console.WriteLine($" | >>Hp: {currentHp} / {maxHp}                                       \n        ");
+            Console.WriteLine($" | >>Max HP      : {maxHp}                                            \n        ");
+            Console.WriteLine($" | >>Crit Chance : {critChance}                                       \n        ");
+            Console.WriteLine($" | >>Attack Power: {attackPower}                                      \n        ");
+            Console.WriteLine($" | >>Stamina     : {staminaElectric}                                  \n        ");
+            Console.WriteLine($" | >>Playable    : {isPlayable}                                                                  ");
+            Console.WriteLine(" << \"---------------------------------------------------------------------------------------");
             Console.WriteLine();
 
             int hpPercentage = currentHp * 60 / maxHp;
@@ -51,3 +54,4 @@
         }
     }
 }
+            
