@@ -28,9 +28,9 @@ namespace Lap06
 
             Console.WriteLine("CHOOSE YOUR ACTION (1-4): ");
             bool isInputValid = int.TryParse(Console.ReadLine(), out int action);
-            if (!isInputValid ==false || action < 1 || action > 4)
+            if (!isInputValid ==true || action < 1 || action > 4)
             {
-                Console.WriteLine("Invalid action. Please choose a number between 1 and 4.");
+                Console.WriteLine("You idiot, it only lets you choose 1 to 4. Go back and choose again.");
             }
             else if (action == 1)
             {
@@ -54,7 +54,7 @@ namespace Lap06
             }
             else
             {
-                Console.WriteLine("Invalid action. Please choose a number between 1 and 4.");
+                Console.WriteLine("You win the game, but your friend killed you ");
             }
             
 
