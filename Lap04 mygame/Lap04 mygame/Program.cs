@@ -1,7 +1,7 @@
 ﻿
-//Student ID : 1690700081
-//Name       : kiart losatcha
-//Section    : 129A
+//Student ID : 1690701253
+//Name       : PIYAWAT THANTHONG
+//Section    : 129B
 //No.        :
 //Course     : GI113 Computer Programming (GI113)
 
